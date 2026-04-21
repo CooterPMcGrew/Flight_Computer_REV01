@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "KiCAD_Library_Cooter") (type "KiCad") (uri "${KIPRJMOD}/Libraries/KiCAD_Library_Cooter.kicad_sym") (options "") (descr ""))
+)
