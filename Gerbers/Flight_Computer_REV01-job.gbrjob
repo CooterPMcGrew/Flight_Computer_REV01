@@ -1,0 +1,306 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "10.0.0"
+    },
+    "CreationDate": "2026-04-29T16:13:21-04:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "Flight_Computer_REV01",
+      "GUID": "466c6967-6874-45f4-936f-6d7075746572",
+      "Revision": "rev?"
+    },
+    "Size": {
+      "X": 170.5,
+      "Y": 58.5
+    },
+    "LayerNumber": 12,
+    "BoardThickness": 1.6,
+    "Finish": "None"
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.07,
+      "PadToTrack": 0.07,
+      "TrackToTrack": 0.05,
+      "MinLineWidth": 0.09,
+      "TrackToRegion": 0.102,
+      "RegionToRegion": 0.102
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.05,
+      "MinLineWidth": 0.09,
+      "TrackToRegion": 0.16,
+      "RegionToRegion": 0.16
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "Flight_Computer_REV01-L1_SIGNAL1.gbr",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Flight_Computer_REV01-L2_GND1.gbr",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Flight_Computer_REV01-L3_SIGNAL2.gbr",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Flight_Computer_REV01-L4_GND2.gbr",
+      "FileFunction": "Copper,L4,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Flight_Computer_REV01-L5_SIGNAL3.gbr",
+      "FileFunction": "Copper,L5,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Flight_Computer_REV01-L6_GND3.gbr",
+      "FileFunction": "Copper,L6,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Flight_Computer_REV01-L7_SIGNAL4.gbr",
+      "FileFunction": "Copper,L7,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Flight_Computer_REV01-L8_GND4.gbr",
+      "FileFunction": "Copper,L8,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Flight_Computer_REV01-L9_SIGNAL5.gbr",
+      "FileFunction": "Copper,L9,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Flight_Computer_REV01-L10_GND5.gbr",
+      "FileFunction": "Copper,L10,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Flight_Computer_REV01-L11_SIGNAL6.gbr",
+      "FileFunction": "Copper,L11,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Flight_Computer_REV01-L12_GND6.gbr",
+      "FileFunction": "Copper,L12,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Flight_Computer_REV01-F_Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Flight_Computer_REV01-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Flight_Computer_REV01-F_Silkscreen.gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Flight_Computer_REV01-B_Silkscreen.gbr",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Flight_Computer_REV01-F_Mask.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "Flight_Computer_REV01-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "Flight_Computer_REV01-Edge_Cuts.gbr",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "L1_SIGNAL1"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "Name": "L1_SIGNAL1/L2_GND1",
+      "Notes": "Type: dielectric layer 1 (from L1_SIGNAL1 to L2_GND1)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "L2_GND1"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.112,
+      "Material": "FR4",
+      "Name": "L2_GND1/L3_SIGNAL2",
+      "Notes": "Type: dielectric layer 2 (from L2_GND1 to L3_SIGNAL2)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "L3_SIGNAL2"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "Name": "L3_SIGNAL2/L4_GND2",
+      "Notes": "Type: dielectric layer 3 (from L3_SIGNAL2 to L4_GND2)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "L4_GND2"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.112,
+      "Material": "FR4",
+      "Name": "L4_GND2/L5_SIGNAL3",
+      "Notes": "Type: dielectric layer 4 (from L4_GND2 to L5_SIGNAL3)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "L5_SIGNAL3"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "Name": "L5_SIGNAL3/L6_GND3",
+      "Notes": "Type: dielectric layer 5 (from L5_SIGNAL3 to L6_GND3)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "L6_GND3"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.112,
+      "Material": "FR4",
+      "Name": "L6_GND3/L7_SIGNAL4",
+      "Notes": "Type: dielectric layer 6 (from L6_GND3 to L7_SIGNAL4)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "L7_SIGNAL4"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "Name": "L7_SIGNAL4/L8_GND4",
+      "Notes": "Type: dielectric layer 7 (from L7_SIGNAL4 to L8_GND4)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "L8_GND4"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.112,
+      "Material": "FR4",
+      "Name": "L8_GND4/L9_SIGNAL5",
+      "Notes": "Type: dielectric layer 8 (from L8_GND4 to L9_SIGNAL5)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "L9_SIGNAL5"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "Name": "L9_SIGNAL5/L10_GND5",
+      "Notes": "Type: dielectric layer 9 (from L9_SIGNAL5 to L10_GND5)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "L10_GND5"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.112,
+      "Material": "FR4",
+      "Name": "L10_GND5/L11_SIGNAL6",
+      "Notes": "Type: dielectric layer 10 (from L10_GND5 to L11_SIGNAL6)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "L11_SIGNAL6"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "Name": "L11_SIGNAL6/L12_GND6",
+      "Notes": "Type: dielectric layer 11 (from L11_SIGNAL6 to L12_GND6)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "L12_GND6"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}

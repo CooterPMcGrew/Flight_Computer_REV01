@@ -2191,9 +2191,63 @@
           "label": "Digikey#",
           "name": "Digikey#",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER_PART_NUMBER",
+          "name": "MANUFACTURER_PART_NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KiLib_Generator",
+          "name": "KiLib_Generator",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER_NAME",
+          "name": "MANUFACTURER_NAME",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MOUSER PART NUMBER",
+          "name": "MOUSER PART NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MOUSER PRICE/STOCK",
+          "name": "MOUSER PRICE/STOCK",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DATASHEET LINK",
+          "name": "DATASHEET LINK",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ARROW PART NUMBER",
+          "name": "ARROW PART NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ARROW PRICE/STOCK",
+          "name": "ARROW PRICE/STOCK",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "HEIGHT",
+          "name": "HEIGHT",
+          "show": false
         }
       ],
-      "filter_string": "J",
+      "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
@@ -2249,13 +2303,13 @@
         "uuid": "90c8068e-3eef-45e4-910c-02ec589c7ae1"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U1-22,#PWR1-329,C1-189,R1-154,#FLG1-9,J1-21,IC1-2,Q1-12,CON1,D1-2,FB1-5,GT1,H1-4,L1-4,M1-2",
     "variants": []
   },
   "sheets": [
     [
       "90c8068e-3eef-45e4-910c-02ec589c7ae1",
-      "ISS_MCU_REV05"
+      "Flight_Computer_REV01"
     ],
     [
       "8a2f2e73-6b8f-492e-ae44-a6ac01388261",
@@ -2280,6 +2334,10 @@
     [
       "c91cfa4b-cd01-4bcf-9f73-cafd7e5aa1d0",
       "Storage"
+    ],
+    [
+      "eb8424ed-f8d3-4a65-9141-bfb8a8af9444",
+      "Motor"
     ],
     [
       "c3ffe7a9-e5ed-44b1-a267-fae7d679c22e",
