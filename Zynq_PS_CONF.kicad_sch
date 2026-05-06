@@ -19154,10 +19154,6 @@
 		(uuid "1bca74e1-a0b2-4fa6-82b6-8576fc8c7601")
 	)
 	(no_connect
-		(at 243.84 39.37)
-		(uuid "2fac921c-c70b-49c1-b785-43bb2d75e6df")
-	)
-	(no_connect
 		(at 41.91 172.72)
 		(uuid "3bf05ebb-6233-400c-b3d0-1336b7b93662")
 	)
@@ -19457,6 +19453,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 41.91) (xy 204.47 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36de2ada-23a1-44e1-b37f-a5990eb99ba6")
+	)
+	(wire
+		(pts
 			(xy 238.76 31.75) (xy 255.27 31.75)
 		)
 		(stroke
@@ -19694,6 +19700,16 @@
 			(type default)
 		)
 		(uuid "704206c3-9895-4997-bc01-b0f863a631d7")
+	)
+	(wire
+		(pts
+			(xy 204.47 41.91) (xy 255.27 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70cf2a62-838d-4afd-981b-072ee14d232a")
 	)
 	(wire
 		(pts
@@ -20257,16 +20273,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 41.91) (xy 255.27 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3b09f1f-d7dd-4fa9-8fad-6c43dd130ed7")
-	)
-	(wire
-		(pts
 			(xy 243.84 21.59) (xy 255.27 21.59)
 		)
 		(stroke
@@ -20284,6 +20290,16 @@
 			(type default)
 		)
 		(uuid "f8d87b20-e887-498c-ab00-44ddc868f7b1")
+	)
+	(wire
+		(pts
+			(xy 204.47 35.56) (xy 204.47 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd07c094-b26b-4722-a1f1-77b143787471")
 	)
 	(table
 		(column_count 8)
@@ -24405,29 +24421,6 @@
 			)
 		)
 	)
-	(global_label "ETH_RST"
-		(shape input)
-		(at 243.84 41.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e86b719d-7586-44bd-8a46-59310685cba8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.1626 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "BOOTSPI_DQ2_BMODE2"
 		(shape bidirectional)
 		(at 147.32 45.72 270)
@@ -24487,6 +24480,29 @@
 		(uuid "f41dacac-9533-46a5-ad52-0edbd69a6c28")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 227.2011 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ETH_RST"
+		(shape input)
+		(at 243.84 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f97ee912-4a2e-49cd-9745-0f7ef0543e09")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 235.1626 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28518,6 +28534,82 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
+		(at 204.47 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bf719560-fc90-4888-8e0d-cc495a2c1a1a")
+		(property "Reference" "#PWR0330"
+			(at 204.47 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P3V3"
+			(at 204.851 26.0858 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a946aeaf-3b73-481d-8328-426ca5b0826b")
+		)
+		(instances
+			(project "Flight_Computer_REV01"
+				(path "/90c8068e-3eef-45e4-910c-02ec589c7ae1/02d20871-377f-47d8-ae1f-b9e257fffeb5"
+					(reference "#PWR0330")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
 		(at 30.48 149.86 0)
 		(unit 1)
 		(body_style 1)
@@ -28819,6 +28911,84 @@
 			(project "Flight_Computer_REV01"
 				(path "/90c8068e-3eef-45e4-910c-02ec589c7ae1/02d20871-377f-47d8-ae1f-b9e257fffeb5"
 					(reference "C59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 204.47 38.1 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e1fe495e-1e54-45c3-90f6-79a2851caab2")
+		(property "Reference" "R155"
+			(at 202.692 38.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20k"
+			(at 204.47 38.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 204.47 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6322baaf-9f84-466b-a351-c8c47cf5eb60")
+		)
+		(pin "1"
+			(uuid "48a6e70a-f3ee-4644-a57f-a716ea2a70ba")
+		)
+		(instances
+			(project "Flight_Computer_REV01"
+				(path "/90c8068e-3eef-45e4-910c-02ec589c7ae1/02d20871-377f-47d8-ae1f-b9e257fffeb5"
+					(reference "R155")
 					(unit 1)
 				)
 			)

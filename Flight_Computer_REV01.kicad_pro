@@ -2303,7 +2303,7 @@
         "uuid": "90c8068e-3eef-45e4-910c-02ec589c7ae1"
       }
     ],
-    "used_designators": "U1-22,#PWR1-329,C1-189,R1-154,#FLG1-9,J1-21,IC1-2,Q1-12,CON1,D1-2,FB1-5,GT1,H1-4,L1-4,M1-2",
+    "used_designators": "#PWR330,R155",
     "variants": []
   },
   "sheets": [
