@@ -360,7 +360,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3301,7 +3301,7 @@
 		(pin "6"
 			(uuid "2f8b7b4a-f6e6-4874-985b-f79103b6ea86")
 		)
-		(pin "9"
+		(pin "SH"
 			(uuid "3a64ec0b-5727-4fe4-822a-80c9fa5655c2")
 		)
 		(instances

@@ -11025,7 +11025,7 @@
     (pin "1" 
       (uuid "d9c3fc22-6c30-4708-9318-9ddeebd8e032")) 
     (instances 
-      (project "Flight_Computer_REV01" 
+      (project "ISS_MCU_REV05" 
         (path "/90c8068e-3eef-45e4-910c-02ec589c7ae1/8a2f2e73-6b8f-492e-ae44-a6ac01388261" 
           (reference "C14") 
           (unit 1))))) 
@@ -11067,7 +11067,7 @@
     (pin "1" 
       (uuid "bb797570-b74a-4ba1-98a7-ff548eb8ba8c")) 
     (instances 
-      (project "Flight_Computer_REV01" 
+      (project "ISS_MCU_REV05" 
         (path "/90c8068e-3eef-45e4-910c-02ec589c7ae1/8a2f2e73-6b8f-492e-ae44-a6ac01388261" 
           (reference "#PWR015") 
           (unit 1))))) 
@@ -11114,7 +11114,7 @@
     (pin "2" 
       (uuid "39747b16-4faa-4be6-9709-91c390edcf94")) 
     (instances 
-      (project "Flight_Computer_REV01" 
+      (project "ISS_MCU_REV05" 
         (path "/90c8068e-3eef-45e4-910c-02ec589c7ae1/8a2f2e73-6b8f-492e-ae44-a6ac01388261" 
           (reference "C10") 
           (unit 1))))) 
@@ -12178,7 +12178,7 @@
     (pin "2" 
       (uuid "a550f24a-c686-4da6-98e2-bbcda2a7e390")) 
     (instances 
-      (project "Flight_Computer_REV01" 
+      (project "ISS_MCU_REV05" 
         (path "/90c8068e-3eef-45e4-910c-02ec589c7ae1/8a2f2e73-6b8f-492e-ae44-a6ac01388261" 
           (reference "C3") 
           (unit 1))))) 
@@ -12225,7 +12225,7 @@
     (pin "1" 
       (uuid "32a45795-043e-4538-9710-4413113bb3b0")) 
     (instances 
-      (project "Flight_Computer_REV01" 
+      (project "ISS_MCU_REV05" 
         (path "/90c8068e-3eef-45e4-910c-02ec589c7ae1/8a2f2e73-6b8f-492e-ae44-a6ac01388261" 
           (reference "C13") 
           (unit 1))))) 
@@ -12272,7 +12272,7 @@
     (pin "2" 
       (uuid "9e9a5e25-97b4-41fd-bda1-0b85e16af095")) 
     (instances 
-      (project "Flight_Computer_REV01" 
+      (project "ISS_MCU_REV05" 
         (path "/90c8068e-3eef-45e4-910c-02ec589c7ae1/8a2f2e73-6b8f-492e-ae44-a6ac01388261" 
           (reference "C11") 
           (unit 1))))) 
@@ -12319,7 +12319,7 @@
     (pin "2" 
       (uuid "7e7e2049-0536-4593-960e-6089047df09f")) 
     (instances 
-      (project "Flight_Computer_REV01" 
+      (project "ISS_MCU_REV05" 
         (path "/90c8068e-3eef-45e4-910c-02ec589c7ae1/8a2f2e73-6b8f-492e-ae44-a6ac01388261" 
           (reference "C16") 
           (unit 1))))) 
@@ -12366,7 +12366,7 @@
     (pin "1" 
       (uuid "1b0ac570-8c27-4ba8-b195-a8e77ba3a179")) 
     (instances 
-      (project "Flight_Computer_REV01" 
+      (project "ISS_MCU_REV05" 
         (path "/90c8068e-3eef-45e4-910c-02ec589c7ae1/8a2f2e73-6b8f-492e-ae44-a6ac01388261" 
           (reference "C15") 
           (unit 1))))) 
@@ -12413,7 +12413,7 @@
     (pin "2" 
       (uuid "04fb725b-4c5e-47ab-b975-a3526ad8f757")) 
     (instances 
-      (project "Flight_Computer_REV01" 
+      (project "ISS_MCU_REV05" 
         (path "/90c8068e-3eef-45e4-910c-02ec589c7ae1/8a2f2e73-6b8f-492e-ae44-a6ac01388261" 
           (reference "C9") 
           (unit 1))))) 
@@ -12460,7 +12460,7 @@
     (pin "2" 
       (uuid "bf47091a-a529-4889-a125-b330da4a6be5")) 
     (instances 
-      (project "Flight_Computer_REV01" 
+      (project "ISS_MCU_REV05" 
         (path "/90c8068e-3eef-45e4-910c-02ec589c7ae1/8a2f2e73-6b8f-492e-ae44-a6ac01388261" 
           (reference "C12") 
           (unit 1))))) 
@@ -12507,7 +12507,7 @@
     (pin "1" 
       (uuid "03fc0be0-68ac-4a12-87f3-cb81b20893de")) 
     (instances 
-      (project "Flight_Computer_REV01" 
+      (project "ISS_MCU_REV05" 
         (path "/90c8068e-3eef-45e4-910c-02ec589c7ae1/8a2f2e73-6b8f-492e-ae44-a6ac01388261" 
           (reference "C8") 
           (unit 1))))) 
@@ -12549,7 +12549,7 @@
     (pin "1" 
       (uuid "51fcb063-ba83-4900-903f-9f30e323bb12")) 
     (instances 
-      (project "Flight_Computer_REV01" 
+      (project "ISS_MCU_REV05" 
         (path "/90c8068e-3eef-45e4-910c-02ec589c7ae1/8a2f2e73-6b8f-492e-ae44-a6ac01388261" 
           (reference "#PWR014") 
           (unit 1))))) 
@@ -12596,7 +12596,7 @@
     (pin "1" 
       (uuid "dd769476-382e-43a6-bd31-0dcea941023b")) 
     (instances 
-      (project "Flight_Computer_REV01" 
+      (project "ISS_MCU_REV05" 
         (path "/90c8068e-3eef-45e4-910c-02ec589c7ae1/8a2f2e73-6b8f-492e-ae44-a6ac01388261" 
           (reference "C6") 
           (unit 1))))) 
@@ -12643,7 +12643,7 @@
     (pin "1" 
       (uuid "428ff06a-0b9c-4f3b-8d08-72e85f90f453")) 
     (instances 
-      (project "Flight_Computer_REV01" 
+      (project "ISS_MCU_REV05" 
         (path "/90c8068e-3eef-45e4-910c-02ec589c7ae1/8a2f2e73-6b8f-492e-ae44-a6ac01388261" 
           (reference "C7") 
           (unit 1))))) 
@@ -13707,7 +13707,7 @@
     (pin "2" 
       (uuid "80a1aa77-07d1-44b9-a02e-7185c54ff996")) 
     (instances 
-      (project "Flight_Computer_REV01" 
+      (project "ISS_MCU_REV05" 
         (path "/90c8068e-3eef-45e4-910c-02ec589c7ae1/8a2f2e73-6b8f-492e-ae44-a6ac01388261" 
           (reference "C5") 
           (unit 1))))) 
@@ -13749,7 +13749,7 @@
     (pin "1" 
       (uuid "f09b4612-0bdf-4243-9287-d4e45d9ced24")) 
     (instances 
-      (project "Flight_Computer_REV01" 
+      (project "ISS_MCU_REV05" 
         (path "/90c8068e-3eef-45e4-910c-02ec589c7ae1/8a2f2e73-6b8f-492e-ae44-a6ac01388261" 
           (reference "#PWR012") 
           (unit 1))))) 
@@ -13791,7 +13791,7 @@
     (pin "1" 
       (uuid "20687580-d8c7-4465-9a61-e028ed12d94b")) 
     (instances 
-      (project "Flight_Computer_REV01" 
+      (project "ISS_MCU_REV05" 
         (path "/90c8068e-3eef-45e4-910c-02ec589c7ae1/8a2f2e73-6b8f-492e-ae44-a6ac01388261" 
           (reference "#PWR013") 
           (unit 1))))) 
@@ -13838,7 +13838,7 @@
     (pin "2" 
       (uuid "cf4ca860-4303-4424-b213-47f3026ea769")) 
     (instances 
-      (project "Flight_Computer_REV01" 
+      (project "ISS_MCU_REV05" 
         (path "/90c8068e-3eef-45e4-910c-02ec589c7ae1/8a2f2e73-6b8f-492e-ae44-a6ac01388261" 
           (reference "C4") 
           (unit 1))))))

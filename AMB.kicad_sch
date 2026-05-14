@@ -5,105 +5,6 @@
 	(uuid "63fb97f0-5742-4311-a1a6-ec99ef34ec07")
 	(paper "A4")
 	(lib_symbols
-		(symbol "CIAA_ACC:GND"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2681,6 +2582,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 68.58 102.87)
@@ -2731,13 +2747,13 @@
 		(uuid "846e8939-551d-412b-9398-5f243cda37dd")
 	)
 	(junction
-		(at 184.404 154.94)
+		(at 184.15 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b03f1e0a-436a-48bf-b912-726c9cfefcb3")
 	)
 	(junction
-		(at 180.594 55.88)
+		(at 180.34 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b32fa71a-eb3b-4a89-83db-783e030a1916")
@@ -2788,7 +2804,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.404 154.94) (xy 198.12 154.94)
+			(xy 184.15 154.94) (xy 198.12 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2928,7 +2944,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 55.88) (xy 180.594 55.88)
+			(xy 161.29 55.88) (xy 180.34 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3038,7 +3054,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.594 55.88) (xy 194.31 55.88)
+			(xy 180.34 55.88) (xy 194.31 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3058,7 +3074,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.404 134.62) (xy 184.404 154.94)
+			(xy 184.15 134.62) (xy 184.15 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3078,7 +3094,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.594 35.56) (xy 180.594 55.88)
+			(xy 180.34 35.56) (xy 180.34 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3088,7 +3104,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 134.62) (xy 184.404 134.62)
+			(xy 179.07 134.62) (xy 184.15 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3118,7 +3134,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 154.94) (xy 184.404 154.94)
+			(xy 165.1 154.94) (xy 184.15 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3168,7 +3184,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 35.56) (xy 180.594 35.56)
+			(xy 175.26 35.56) (xy 180.34 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3325,7 +3341,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CIAA_ACC:GND")
+		(lib_id "power:GND")
 		(at 161.29 71.12 0)
 		(unit 1)
 		(body_style 1)
@@ -3359,6 +3375,7 @@
 		)
 		(property "Footprint" ""
 			(at 161.29 71.12 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3369,6 +3386,7 @@
 		)
 		(property "Datasheet" ""
 			(at 161.29 71.12 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3377,8 +3395,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 161.29 71.12 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3479,7 +3498,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CIAA_ACC:GND")
+		(lib_id "power:GND")
 		(at 72.39 54.61 0)
 		(unit 1)
 		(body_style 1)
@@ -3513,6 +3532,7 @@
 		)
 		(property "Footprint" ""
 			(at 72.39 54.61 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3523,6 +3543,7 @@
 		)
 		(property "Datasheet" ""
 			(at 72.39 54.61 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3531,8 +3552,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 72.39 54.61 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3633,7 +3655,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CIAA_ACC:GND")
+		(lib_id "power:GND")
 		(at 95.25 44.45 0)
 		(unit 1)
 		(body_style 1)
@@ -3667,6 +3689,7 @@
 		)
 		(property "Footprint" ""
 			(at 95.25 44.45 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3677,6 +3700,7 @@
 		)
 		(property "Datasheet" ""
 			(at 95.25 44.45 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3685,8 +3709,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 95.25 44.45 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3789,7 +3814,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CIAA_ACC:GND")
+		(lib_id "power:GND")
 		(at 100.33 71.12 0)
 		(unit 1)
 		(body_style 1)
@@ -3823,6 +3848,7 @@
 		)
 		(property "Footprint" ""
 			(at 100.33 71.12 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3833,6 +3859,7 @@
 		)
 		(property "Datasheet" ""
 			(at 100.33 71.12 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3841,8 +3868,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 100.33 71.12 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4776,7 +4804,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CIAA_ACC:GND")
+		(lib_id "power:GND")
 		(at 165.1 170.18 0)
 		(unit 1)
 		(body_style 1)
@@ -4810,6 +4838,7 @@
 		)
 		(property "Footprint" ""
 			(at 165.1 170.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4820,6 +4849,7 @@
 		)
 		(property "Datasheet" ""
 			(at 165.1 170.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4828,8 +4858,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 165.1 170.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5010,7 +5041,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CIAA_ACC:GND")
+		(lib_id "power:GND")
 		(at 43.18 102.87 0)
 		(unit 1)
 		(body_style 1)
@@ -5044,6 +5075,7 @@
 		)
 		(property "Footprint" ""
 			(at 43.18 102.87 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5054,6 +5086,7 @@
 		)
 		(property "Datasheet" ""
 			(at 43.18 102.87 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5062,8 +5095,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 43.18 102.87 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5085,7 +5119,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CIAA_ACC:GND")
+		(lib_id "power:GND")
 		(at 76.2 153.67 0)
 		(unit 1)
 		(body_style 1)
@@ -5119,6 +5153,7 @@
 		)
 		(property "Footprint" ""
 			(at 76.2 153.67 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5129,6 +5164,7 @@
 		)
 		(property "Datasheet" ""
 			(at 76.2 153.67 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5137,8 +5173,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 76.2 153.67 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5160,7 +5197,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CIAA_ACC:GND")
+		(lib_id "power:GND")
 		(at 68.58 69.85 0)
 		(unit 1)
 		(body_style 1)
@@ -5194,6 +5231,7 @@
 		)
 		(property "Footprint" ""
 			(at 68.58 69.85 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5204,6 +5242,7 @@
 		)
 		(property "Datasheet" ""
 			(at 68.58 69.85 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5212,8 +5251,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 68.58 69.85 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5235,7 +5275,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CIAA_ACC:GND")
+		(lib_id "power:GND")
 		(at 104.14 170.18 0)
 		(unit 1)
 		(body_style 1)
@@ -5269,6 +5309,7 @@
 		)
 		(property "Footprint" ""
 			(at 104.14 170.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5279,6 +5320,7 @@
 		)
 		(property "Datasheet" ""
 			(at 104.14 170.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5287,8 +5329,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 104.14 170.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5916,7 +5959,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CIAA_ACC:GND")
+		(lib_id "power:GND")
 		(at 99.06 143.51 0)
 		(unit 1)
 		(body_style 1)
@@ -5950,6 +5993,7 @@
 		)
 		(property "Footprint" ""
 			(at 99.06 143.51 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5960,6 +6004,7 @@
 		)
 		(property "Datasheet" ""
 			(at 99.06 143.51 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5968,8 +6013,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 99.06 143.51 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6150,7 +6196,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CIAA_ACC:GND")
+		(lib_id "power:GND")
 		(at 72.39 168.91 0)
 		(unit 1)
 		(body_style 1)
@@ -6184,6 +6230,7 @@
 		)
 		(property "Footprint" ""
 			(at 72.39 168.91 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6194,6 +6241,7 @@
 		)
 		(property "Datasheet" ""
 			(at 72.39 168.91 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6202,8 +6250,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 72.39 168.91 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

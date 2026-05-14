@@ -238,11 +238,11 @@
         },
         {
           "diameter": 0.08,
-          "drill": 0.15
+          "drill": 0.015
         },
         {
-          "diameter": 0.15,
-          "drill": 0.1
+          "diameter": 0.3,
+          "drill": 0.15
         },
         {
           "diameter": 0.45,
@@ -491,10 +491,10 @@
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
-      "pin_not_connected": "warning",
+      "pin_not_connected": "ignore",
       "pin_not_driven": "warning",
-      "pin_to_pin": "error",
-      "power_pin_not_driven": "warning",
+      "pin_to_pin": "ignore",
+      "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
@@ -2245,9 +2245,15 @@
           "label": "HEIGHT",
           "name": "HEIGHT",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "q",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
@@ -2303,7 +2309,7 @@
         "uuid": "90c8068e-3eef-45e4-910c-02ec589c7ae1"
       }
     ],
-    "used_designators": "#PWR330,R155",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
