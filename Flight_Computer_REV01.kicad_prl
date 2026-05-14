@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 12,
+    "active_layer": 27,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [
@@ -153,7 +153,7 @@
       "board_outline_area",
       "ly_points"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffeeeeef",
+    "visible_layers": "ffffffff_ffffffff_fffffff5_ffeeeeef",
     "zone_display_mode": 0
   },
   "git": {
@@ -212,26 +212,16 @@
       19
     ],
     "col_widths": [
-      153,
-      139,
-      78,
-      63,
-      68,
+      186,
+      171,
+      113,
       79,
-      70,
-      66,
-      75,
-      67,
-      61,
-      75,
-      61,
-      75,
-      61,
-      75,
-      61,
-      75,
-      67,
-      88
+      113,
+      113,
+      113,
+      83,
+      113,
+      473
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
@@ -244,7 +234,7 @@
     "show_unconnected_nets": false,
     "show_zero_pad_nets": false,
     "sort_ascending": true,
-    "sorting_column": 1
+    "sorting_column": 0
   },
   "open_jobsets": [],
   "project": {
